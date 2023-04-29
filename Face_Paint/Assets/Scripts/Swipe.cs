@@ -13,9 +13,7 @@ public class Swipe : MonoBehaviour
     private float[] distance; //btn dist from center
     private bool dragging = false; 
     private int btnDistance; //dist between btns
-    private int minBtnNum; //no. of button 
-    private ARFaceManager faceManager;
-    public List<Material> faceMaterials;
+    public static int minBtnNum; //no. of button 
 
     void Start()
     {
@@ -25,11 +23,6 @@ public class Swipe : MonoBehaviour
         //get btn dist
         btnDistance = (int)Mathf.Abs(btn[1].GetComponent<RectTransform>().anchoredPosition.x - btn[0].GetComponent<RectTransform>().anchoredPosition.x);
         minBtnNum = 0;
-        faceManager = GetComponent<ARFaceManager>();
-        foreach (ARFace face in faceManager.trackables)
-        {
-            face.GetComponent<Renderer>().material = faceMaterials[minBtnNum];
-        }
     }
 
     // Update is called once per frame
@@ -71,9 +64,6 @@ public class Swipe : MonoBehaviour
 
     public void EndDrag()
     {
-        foreach (ARFace face in faceManager.trackables)
-        {
-            face.GetComponent<Renderer>().material = faceMaterials[minBtnNum];
-        }
+        dragging = false;
     }
 }

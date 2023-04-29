@@ -205,19 +205,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 193474192}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1873988245}
-        m_TargetAssemblyTypeName: Paint_Changer, Assembly-CSharp
-        m_MethodName: SwitchFace
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &193474192
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -402,6 +390,18 @@ MonoBehaviour:
         - m_Target: {fileID: 1232321917}
           m_TargetAssemblyTypeName: Swipe, Assembly-CSharp
           m_MethodName: EndDrag
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1873988245}
+          m_TargetAssemblyTypeName: Paint_Changer, Assembly-CSharp
+          m_MethodName: SwitchFace
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -623,19 +623,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 393429624}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1873988245}
-        m_TargetAssemblyTypeName: Paint_Changer, Assembly-CSharp
-        m_MethodName: SwitchFace
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &393429624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -987,19 +975,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 911162864}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1873988245}
-        m_TargetAssemblyTypeName: Paint_Changer, Assembly-CSharp
-        m_MethodName: SwitchFace
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &911162864
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1120,19 +1096,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1156039596}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1873988245}
-        m_TargetAssemblyTypeName: Paint_Changer, Assembly-CSharp
-        m_MethodName: SwitchFace
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1156039596
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1210,14 +1174,6 @@ MonoBehaviour:
   - {fileID: 1356887288}
   panel: {fileID: 1462062141}
   center: {fileID: 575804234}
-  faceMaterials:
-  - {fileID: 2100000, guid: 3ea2da7cc07e36d468f36890a92e9540, type: 2}
-  - {fileID: 2100000, guid: 39e50db26b1fbb540a1e9aaab7164604, type: 2}
-  - {fileID: 2100000, guid: 303eacec8c978424d8841c5888534722, type: 2}
-  - {fileID: 2100000, guid: 9365bfc9fd379bd45bc5035c3f8f7c1f, type: 2}
-  - {fileID: 2100000, guid: 659ea48902fdca54dab58b8ef2fe2a46, type: 2}
-  - {fileID: 2100000, guid: 106e362728ef1da4488a48d44f0c3a5b, type: 2}
-  - {fileID: 2100000, guid: 192c5fc5656b791448b6a9eca0725c3d, type: 2}
 --- !u!4 &1232321918
 Transform:
   m_ObjectHideFlags: 0
@@ -1315,19 +1271,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1356887289}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1873988245}
-        m_TargetAssemblyTypeName: Paint_Changer, Assembly-CSharp
-        m_MethodName: SwitchFace
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1356887289
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1652,19 +1596,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1762140029}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1873988245}
-        m_TargetAssemblyTypeName: Paint_Changer, Assembly-CSharp
-        m_MethodName: SwitchFace
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1762140029
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1772,7 +1704,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1873988241}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bceef0ec81a483949882abcdfde3a27a, type: 3}
   m_Name: 
@@ -1785,6 +1717,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 659ea48902fdca54dab58b8ef2fe2a46, type: 2}
   - {fileID: 2100000, guid: 106e362728ef1da4488a48d44f0c3a5b, type: 2}
   - {fileID: 2100000, guid: 192c5fc5656b791448b6a9eca0725c3d, type: 2}
+  btn_no: 0
 --- !u!1 &2029259689
 GameObject:
   m_ObjectHideFlags: 0
