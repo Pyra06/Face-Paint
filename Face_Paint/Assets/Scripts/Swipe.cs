@@ -23,6 +23,10 @@ public class Swipe : MonoBehaviour
         //get btn dist
         btnDistance = (int)Mathf.Abs(btn[1].GetComponent<RectTransform>().anchoredPosition.x - btn[0].GetComponent<RectTransform>().anchoredPosition.x);
         minBtnNum = 0;
+        GameObject childObj = btn[minBtnNum].transform.GetChild(0).gameObject;
+        btn[minBtnNum].GetComponent<RectTransform>().sizeDelta = new Vector2(250, 250);
+        childObj.GetComponent<RectTransform>().sizeDelta = new Vector2(250, 250);
+        childObj.SetActive(true);
     }
 
     // Update is called once per frame
@@ -55,15 +59,33 @@ public class Swipe : MonoBehaviour
         Vector3 newPosition = new Vector3(newX, panel.anchoredPosition.y);
 
         panel.anchoredPosition = newPosition;
+
+        //panel.GetChild
     }
 
     public void StartDrag()
     {
         dragging = true;
+        for (int i = 0; i < 7; i++)
+        {
+            GameObject childObj = btn[i].transform.GetChild(0).gameObject;
+            btn[i].GetComponent<RectTransform>().sizeDelta = new Vector2(200, 200);
+            childObj.GetComponent<RectTransform>().sizeDelta = new Vector2(200, 200);
+            childObj.SetActive(false);
+        }
     }
 
     public void EndDrag()
     {
         dragging = false;
+        GameObject childObj = btn[minBtnNum].transform.GetChild(0).gameObject;
+        btn[minBtnNum].GetComponent<RectTransform>().sizeDelta = new Vector2(250, 250);
+        childObj.GetComponent<RectTransform>().sizeDelta = new Vector2(250, 250);
+        childObj.SetActive(true);
+    }
+
+    public void test()
+    {
+        Debug.Log("See");
     }
 }

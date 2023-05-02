@@ -15,7 +15,6 @@ public class Paint_Changer : MonoBehaviour
     {
         faceManager = GetComponent<ARFaceManager>();
     }
-
     public void SwitchFace()
     {
         btn_no = Swipe.minBtnNum;
